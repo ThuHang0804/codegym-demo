@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body {
+            background-color:#7fedff;
+            min-block-size:100vh;
+            display: grid;
+            place-items: center;
+        }
+        .align {
+            inline-size: 100%;
+            max-inline-size:30rem;
+            background-color: #ffff;
+        }
+        #head {
+            background-color:coral;
+            margin:0.2em 0.1em 0.4em 0.1em;
+            text-align: center;
+        }
+        form {
+            width: 90%;
+            left:5%;
+            position: relative;
+            display: grid;
+            gap:1.0rem;
+        }
+        label, .hobby {
+            display: flexbox ;
+        }
+        .hobby>ul {
+            list-style: none;
+            margin:0;
+            padding-left: 10px;
+            color:green;
+        }
+        .form-field {
+            display:inline-flex;
+        }
+        .form-field>label {
+            text-align: end;
+            width:20%;
+            justify-content: flex-end;
+            color:blue;
+        }
+        .form-field>input {
+            margin-left: 10px;
+        }
+        .bth-container {
+            width: 50%;
+        }
+    </style>
+</head>
+<body>
+ <div class="align">
+  <h2 id="head">SỞ THÍCH CỦA BẠN</h2> 
+  <form>
+      <div class="form-field">
+          <label>Họ và tên</label>
+          <input type="text" Họ và tên="name"><br>
+      </div>
+      <div class="form-field">
+        <label>Email</label>
+            <input type="text" Email="Email"><br>
+      </div>
+      <div class="form-field">
+          <label>Sở thích</label>
+          <div class="hobby">
+          <ul>
+              <li><input type="checkbox" value="Thể thao">Thể thao</li>
+              <li><input type="checkbox" value="Âm nhạc">Âm nhạc</li>
+              <li><input type="checkbox" value="Đọc sách">Đọc sách</li>
+          </ul>
+          <ul>
+              <li><input type="checkbox" value="Âm nhạc">Âm nhạc</li>
+              <li><input type="checkbox" value="Chơi game">Chơi game</li>
+              <li><input type="checkbox" value="Điện ảnh">Điện ảnh</li>
+          </ul>
+          <ul>
+              <li><input type="checkbox" value="Du lịch">Du lịch</li>
+          </ul>
+          <div class="form-field"> 
+              <input type="submit" value="Gửi thông tin">
+              <input type="reset" value="Nhập lại">
+          </div>
+      </div>
+  </form>  
+ </div>   
+</body>
+</html>
