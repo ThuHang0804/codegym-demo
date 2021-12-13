@@ -2,24 +2,28 @@
 <html>
     <head></head>
     <body>
-        <button type = "button" value = "play" id = "play" onclick="play()">play</button>
+        <button type = "button" value = "play" id = "play" onclick="play()">Chơi</button>
         <script>
-           function play() {
+            function play() {
             let maxNumber = parseInt(prompt("Nhập số lớn nhất"))
-            let n = Math.floor(Math.round(n)*maxNumber);
-            let num, game over =0;
+            let n = Math.floor(Math.random()*maxNumber);
+            let num, gameOver = 1;
             do {
-                let number =parseInt(prompt("doan so:"))
-                if (number < n) {
-                    alert("be qua")
+                num =parseInt(prompt("Đoán số:"))
+                if (num < n) {
+                    alert("bé qua")
+                } else if (num > n) {
+                    alert("lớn qua")
                 }
-                else if (number > n) {
-                    alert("lon qua")
+                gameOver++
+                } while (num != n && gameOver <=3) {
+                if(gameOver > 3) {
+                    document.write("game over");
+                } else {
+                    document.write("dung roi");
                 }
-                while (number != n) {
-                    document.write("dung roi")
-                }
+            }
+        } 
         </script>
-    </body>
     </body>
 </html>
