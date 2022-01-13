@@ -7,7 +7,7 @@ arrayProduct.push(new Product("Thuc pham chuc nang Pakkun","" ,  "Slevty", 45000
 arrayProduct.push(new Product("Skin Aqua", "" , "Rotoh", 300000, 100, "Dong hanh cung mua he ruc ro"))
 arrayProduct.push(new Product("Shirojun lotion", "" , "Hadalabo", 400000, 100, "Nhan sac vuot thoi gian"))
 
-function displayProduct(index) {
+function displayProduct() {
     let data = "<table><tr><td><b>Name</b></td>"
         + "<td><b>Brand</b></td>"
         + "<td><b>Price</b></td>"
