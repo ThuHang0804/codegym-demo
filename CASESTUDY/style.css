@@ -1,0 +1,99 @@
+body {
+    font-family: Arial;
+    font-size: 14.5px;
+    width: 1000px;
+    margin: 0px auto;
+}
+
+#top {
+    background: powderblue;
+    height: 100px;
+    font-style:calc() 
+}
+
+.input-box{
+    margin-bottom: 1px;  
+}
+.input-box input{
+    padding: 7.5px 15px;
+    width: 15%;
+    border: 1px solid #cccccc;
+    outline: none;
+    float: right;
+   
+}
+.btn-box{
+    text-align: right;
+    margin-top: 2px;
+    
+}
+.btn-box button{
+    padding: 7.5px 15px;
+    border-radius: 2px;
+    background-color: #009999;
+    color: #ffffff;
+    border: none;
+    outline: none;
+
+}    
+#banner {
+    background: pink;
+    height: 280px;
+    width: 1000px;
+}
+
+#main #left {
+    width: 250px;
+    background: #fddde6;
+    float: left;
+    min-height: 600px;
+}
+
+#main #right {
+    width: 750px;
+    background: powderblue;
+    float: right;
+    min-height: 600px;
+}
+
+#footer {
+    background: powderblue;
+    height: 100px;
+}
+
+#login {
+    box-shadow: pink;
+    float: right;
+}
+#main #right img {
+    width: 100px;
+    height: 100px;
+    float: left;
+}
+
+#main #right ul {
+    margin: 0px;
+    padding: 0px;
+}
+
+#main #right ul li {
+    list-style: none;
+    border: 2px outset rgb(233, 152, 179);
+    margin-top: 10px;
+    margin-bottom: 10px;
+    margin-right: 10px;
+    margin-left: 10px;
+}
+
+#main #left ul li h3 {
+    text-transform: uppercase
+}
+
+#main #left ul li {
+    list-style: none;
+    border: 1px outset powderblue;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    margin-right: 10px;
+    margin-left: 5px;
+}

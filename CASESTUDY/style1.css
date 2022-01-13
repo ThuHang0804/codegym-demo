@@ -1,0 +1,16 @@
+/* #top {
+    background: powderblue;
+    height: 100px;
+    font-style:calc() 
+}
+#banner {
+    background: pink;
+    height: 280px;
+    width: 1000px;
+}
+#main {
+    width: 1000px;
+    background: powderblue;
+    float: right;
+    min-height: 600px;
+} */
